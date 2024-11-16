@@ -1,7 +1,7 @@
 # Vulnerability Report: Missing Authorization leading to Unauthorized Notification Deletion
 
 ## Summary:
-This report highlights a vulnerability found in the **BuddyPress** 14.2.1 plugin for WordPress, specifically within the notifications management system. The vulnerability arises from the improper handling of **notification IDs**, allowing a user to delete notifications from other accounts, including those belonging to administrators. 
+This report highlights a vulnerability found in the **BuddyPress** 14.2.1 plugin for WordPress, specifically within the notifications management system. The vulnerability arises from the improper handling of **notification IDs**, allowing a user to delete notifications from other accounts, including those belonging to administrators. For this, I used BuddyPress with Youzify.
 
 ## Vulnerability Description:
 The vulnerability exists in the handling of notifications through the following actions:
